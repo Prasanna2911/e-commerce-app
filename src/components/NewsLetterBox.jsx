@@ -15,14 +15,14 @@ const NewsLetterBox = () => {
         molestiae?
       </p>
       <form
-        className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3"
+        className="w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border border-gray-400 pl-3"
         onSubmit={handSubmitHandler}
       >
         <input
           type="text"
           id="email"
           placeholder="Enter Your Email"
-          className="sm:flex-1 w-full outline-none"
+          className="sm:flex-1 w-full outline-none "
           required
         />
         <button
